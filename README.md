@@ -27,7 +27,7 @@
 
    * The first should ask them the ID of the product they would like to buy.
    
-    <img width="571" alt="Screen Shot 2019-11-20 at 10 10 09 PM" src="https://user-images.githubusercontent.com/50685558/69300968-b9721f80-0be2-11ea-86f5-89529846f3f4.png">
+<img width="567" alt="Screen Shot 2019-11-20 at 10 20 29 PM" src="https://user-images.githubusercontent.com/50685558/69301352-01de0d00-0be4-11ea-8205-f3950c4c73b2.png">
    
    
    * The second message should ask how many units of the product they would like to buy.
