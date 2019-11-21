@@ -16,7 +16,7 @@ connection.connect();
 connection.query('SELECT * FROM products', function (error, results, fields) {
   if (error) throw error;
   
-  console.table(results, ["item_id","product_name","price", "stock_quantity"]);
+  console.table(results, ["item_id","product_name", "department_name", "price", "stock_quantity"]);
   startProducts();
 });
 
@@ -46,7 +46,7 @@ inquirer.prompt({
             let price=results[0].price;
 
             if(quantity < answer.quantity){
-                console.log("Insufficient Quantity");
+                console.log("Insufficient Quantity!");
                 connection.end();
             }else{
                 let newQuantity = quantity-answer.quantity;
