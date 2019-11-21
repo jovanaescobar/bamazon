@@ -22,12 +22,12 @@
 
  6. The app should then prompt users with two messages:
  
- <img width="581" alt="Screen Shot 2019-11-20 at 10 09 42 PM" src="https://user-images.githubusercontent.com/50685558/69301064-00601500-0be3-11ea-92c7-a9420ac1c276.png">
+<img width="697" alt="Screen Shot 2019-11-20 at 10 23 44 PM" src="https://user-images.githubusercontent.com/50685558/69301483-6c8f4880-0be4-11ea-9223-07f68108e643.png">
 
 
    * The first should ask them the ID of the product they would like to buy.
    
-<img width="567" alt="Screen Shot 2019-11-20 at 10 20 29 PM" src="https://user-images.githubusercontent.com/50685558/69301352-01de0d00-0be4-11ea-8205-f3950c4c73b2.png">
+<img width="695" alt="Screen Shot 2019-11-20 at 10 24 25 PM" src="https://user-images.githubusercontent.com/50685558/69301512-8597f980-0be4-11ea-8f05-fdbf29fd7a21.png">
    
    
    * The second message should ask how many units of the product they would like to buy.
@@ -35,13 +35,13 @@
    
 7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
 
-<img width="565" alt="Screen Shot 2019-11-20 at 10 17 23 PM" src="https://user-images.githubusercontent.com/50685558/69301231-8da36980-0be3-11ea-984f-79070ea17d40.png">
+<img width="695" alt="Screen Shot 2019-11-20 at 10 27 00 PM" src="https://user-images.githubusercontent.com/50685558/69301618-e1628280-0be4-11ea-8f54-851800c8f0d3.png">
 
    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
 
 8. However, if your store _does_ have enough of the product, you should fulfill the customer's order.
 
-<img width="578" alt="Screen Shot 2019-11-20 at 10 15 06 PM" src="https://user-images.githubusercontent.com/50685558/69301155-46b57400-0be3-11ea-872b-ffcb87441cfd.png">
+<img width="697" alt="Screen Shot 2019-11-20 at 10 25 26 PM" src="https://user-images.githubusercontent.com/50685558/69301549-a95b3f80-0be4-11ea-88e8-a4e9651d2c56.png">
 
 
    * This means updating the SQL database to reflect the remaining quantity.
